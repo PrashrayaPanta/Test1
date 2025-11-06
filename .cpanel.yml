@@ -4,4 +4,4 @@ deployment:
     - export DEPLOYPATH=/home/prashray/public_html
 
     # 2️⃣ Copy everything from your repository to public_html
-    - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp -r * $DEPLOYPATH
