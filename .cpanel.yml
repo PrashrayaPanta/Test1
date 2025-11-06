@@ -1,0 +1,7 @@
+deployment:
+  tasks:
+    # 1️⃣ Set your public_html path (where your website files go)
+    - export DEPLOYPATH=/home/prashray/public_html
+
+    # 2️⃣ Copy everything from your repository to public_html
+    - /bin/cp -R * $DEPLOYPATH
